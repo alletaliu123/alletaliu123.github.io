@@ -1,0 +1,146 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body{
+	font-family: 'Bai Jamjuree', sans-serif;
+	font-size: 14px;
+	margin:0;
+	padding: 0;
+}
+.container{
+	width: 80%;
+	margin: 50px auto 0;;
+}
+.flex-box{
+	display: flex;
+}
+@font-face{
+    font-family: 'Young Serif';
+    src : url('../font/YoungSerif-Regular.otf');
+}
+h2{
+	font-size: 30px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+.container p{
+	line-height: 2;
+
+}
+.banner{
+	position: relative;
+}
+
+.banner .text{
+	position: absolute;
+	left: 8%;
+	bottom:8%;
+	color: black;
+
+}
+.banner .text h2{
+	font-size: 48px;
+	font-family: 'Open Sans', sans-serif;
+
+}
+.banner .text p{
+	font-size: 18px;
+	
+}
+
+
+.logo li {
+    vertical-align: top;
+    display: inline;
+}
+.logo a {
+    color: white;
+}
+.fa-facebook {
+	padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-tumblr {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-tumblr:hover {
+    background-color: #00aced;
+}
+.fa-instagram {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-behance {
+    padding:10px 10px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-behance:hover {
+    background-color: #0073a4;
+}
+
+/*section1*/
+.section-1 .cols{
+	
+	padding: 0 20px;
+}
+
+.section-1 .cols-2{
+	
+	padding-top: 30px;
+}
+
+
+/*section-4*/
+.section-4{
+	padding-top: 50px;
+}
+.section-4 .cols{
+	padding: 20px 20px 20px 0;
+}
+.section-4 .cols .img img{
+	display: block;
+	width: 100%;
+}
+
